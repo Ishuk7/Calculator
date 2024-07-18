@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Oswald:wght@600&family=Playwrite+AT:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="Landing.css">
+    <title>Document</title>
+</head>
+<body>
+<!-- Created By Khushi Pal -->
+    <section class="bg">
+        <section class="nav">
+            <section class="account">
+                <p id="account_name">Vanilla</p>
+            </section>
+            <section class="nav_content">
+                <p id="home"><a id="home_a" href="#Home">HOME</a></p>
+                <p id="about"><a id="about_a" href="#About_US">ABOUT</a></p>
+                <p id="contact"><a id="contact_a" href="#Contact">CONTACT</a></p>
+                <p id="user"><a id="user_a" href="#User">USER</a></p>
+            </section>
+        </section>
+        <section class="line_section">
+            <div class="line"></div>
+        </section>
+        <section class="search_section" id="Home">
+            <img id="search_img" src="Flower 02 BG.png" alt="" width="1382.4px" height="350px">
+            <div class="search_headline">
+                <span id="our_new">
+                    Our New Collection
+                </span>
+            </div>
+            <div class="search_input">
+                <input id="type_here" type="text" placeholder="Search">
+            </div>
+        </section>
+        <br>
+        <section class="shop">
+            <span class="options">
+                <div id="option01">
+                    <p id="option01_p"><a href="">New Collection</a></p>
+                </div>
+                <div id="option02">
+                    <p id="option02_p"><a href="">Special Promo</a></p>
+                </div>
+                <div id="option03">
+                    <p id="option03_p"><a href="">Casual Bag</a></p>
+                </div>
+                <div id="option04">
+                    <p id="option04_p"><a href="">Party Bag</a></p>
+                </div>
+                <br>
+                <div id="quote_div">
+                    <p id="quote_p">Dress how you want to be adressed</p>
+                </div>
+            </span>
+            <span class="display">
+                <figure>
+                    <img id="bag01" src="Bag01.png" alt="" width="300px" height="300px">
+                    <figcaption id="fig_apace">
+                        <p id="bag_name">Black Bing</p>
+                        <div id="buy_space">
+                            <span id="rate">$68</span>
+                            <div id="buy_add space">
+                                <span id="buy_icon"><a id="a_buy_icon" href="">Buy</a></span>
+                                <span id="add_icon"><a id="a_add_icon" href="">Add</a></span>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img id="bag02" src="Bag02.png" alt="" width="300px" height="300px">
+                    <figcaption id="fig_apace">
+                        <p id="bag_name">Hope Casual Bag</p>
+                        <div id="buy_space">
+                            <span id="rate">$68</span>
+                            <div id="buy_add space">
+                                <span id="buy_icon"><a id="a_buy_icon" href="">Buy</a></span>
+                                <span id="add_icon"><a id="a_add_icon" href="">Add</a></span>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img id="bag03" src="Bag03.png" alt="" width="300px" height="300px">
+                    <figcaption id="fig_apace">
+                        <p id="bag_name">Haute Sauce</p>
+                        <div id="buy_space">
+                            <span id="rate">$68</span>
+                            <div id="buy_add space">
+                                <span id="buy_icon"><a id="a_buy_icon" href="">Buy</a></span>
+                                <span id="add_icon"><a id="a_add_icon" href="">Add</a></span>
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </span>
+        </section>
+<!-- Created By Khushi Pal -->
+    <section class="about_us" id="About_US">
+        <p id="about_us_head">ABOUT US</p>
+            <p id="para">Welcome to Vanilla, your go-to destination for chic and contemporary bags. Founded by Khushi Pal, our brand is dedicated to providing high-quality, stylish, and functional bags for every occasion. Our collections are thoughtfully curated to offer a range of designs that cater to diverse tastes and lifestyles.</p>
+        <p id="about_us_con">Our Mission</p>
+            <p id="para">At Vanilla, our mission is to empower individuals with fashionable accessories that enhance their style and confidence. We believe in the power of a great bag to transform an outfit and make a statement. That's why we focus on creating versatile, durable, and beautiful bags that meet the needs of modern-day fashion enthusiasts.</p>
+        <p id="about_us_con">Our Products</p>
+            <p id="para">Our product range includes:</p>
+            <br>
+            <ul id="para">
+                <section id="para_space">
+                    <li><p>New Collection: The latest in trendy designs and innovative styles.</p></li>
+                    <li><p>Special Promo: Exclusive deals and limited-time offers.</p></li>
+                    <li><p>Casual Bags: Perfect for everyday use, combining practicality with style.</p></li>
+                    <li><p>Party Bags: Elegant and chic bags for special occasions and events.</p></li>
+                </section>
+            </ul>
+            <p id="para">Every piece in our collection is crafted with meticulous attention to detail, using premium materials to ensure longevity and elegance. We pride ourselves on offering products that not only look good but also stand the test of time.</p>
+        <p id="about_us_con">Customer Satisfaction</p>
+            <p id="para">We value our customers and strive to provide an exceptional shopping experience. From easy navigation on our website to prompt customer service, we are here to make your shopping journey enjoyable and hassle-free. Your satisfaction is our top priority, and we are always open to feedback to improve our offerings and services.</p>
+    </section>
+
+    <section class="user" id="User">
+        <span class="user_head">Sign Up</span>
+        <section class="user_form">
+            <div id="name_con">
+                <label for="name">Full Name</label>
+                <input id="input_space" type="text" id="name">
+            </div>
+            <br>
+            <div id="email_con">
+                <label for="email">Email</label>
+                <input id="input_space" type="text" id="email" placeholder="abcdef@gmail.com">
+            </div>
+            <br>
+            <div id="pass_con">
+                <label for="password">Create Password</label>
+                <input id="input_space" type="password" id="password">
+            </div>
+            <br>
+            <div id="pass_con2">
+                <label for="password">Repeate Password</label>
+                <input id="input_space" type="password" id="password">
+            </div>
+            <br>
+            <div id="instruction">
+                <ul>
+                    <li><p>Passwords must be at least 8 characters long.</p></li>
+                    <li><p>Passwords must include a combination of: uppercase letters (A-Z), lowercase letters (a-z), numbers (0-9), special characters (e.g., !@#$%^&*)</p></li>
+                    <li><p>Do not use personal information such as your name, birthdate, or address.</p></li>
+                </ul>
+            </div>
+            <br>
+            <div id="num_con">
+                <label for="number">Mobile Number</label>
+                <input id="input_space" type="tel" id="number">
+            </div>
+            <br>
+            <br>
+            <section id="submit_layer">
+                <div>
+                    <input id="submit_button" type="submit" value="Sign Up">
+                </div>
+            </section>
+        </section>
+    </section>
+<!-- Created By Khushi Pal -->
+    <section class="contact" id="Contact">
+        <p class="contact_head">Contact Us</p>
+        <br>
+        <p id="con_para">Have questions or need assistance? Feel free to reach out to us via our Contact page. We are here to help and ensure you have the best experience with Vanilla.</p>
+        <br>
+        <p id="con_para">Thank you for choosing Vanilla. We look forward to being a part of your fashion journey!</p>
+        <br>
+        <i style="font-size:40px" class="fa"><a id="insta" href="">&#xf08c;</a></i>
+        <i style="font-size:40px" class="fa"><a id="twitter" href="">&#xf099;</a></i>
+        <i style="font-size:40px" class="fa"><a id="what" href="">&#xf232;</a></i>
+        <i style="font-size:38px" class="fa"><a id="email_me" href="">&#xf0e0;</a></i>
+    </section>
+<!-- Created By Khushi Pal -->
+</section>
+</body>
+</html>
