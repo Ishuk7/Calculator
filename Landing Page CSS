@@ -1,0 +1,510 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+input{
+    text-decoration: none;
+}
+
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+.playwrite{
+  font-family: "Playwrite AT", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.oswald{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link {color: rgb(0, 0, 0);}  
+    
+a:visited {color: rgb(0, 0, 0)} 
+
+.bg{
+    background-image: url(BG\ Flower.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+}
+
+#account_name{
+    margin-left: 10px;
+    font-size: 3rem;
+    font-family: 'Playwrite AT';
+}
+
+.nav_content{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    font-family: 'Montserrat';
+}
+
+#home_a:hover{
+    color: #d99a65;
+}
+
+#about_a:hover{
+    color: #d99a65;
+}
+
+#contact_a:hover{
+    color: #d99a65;
+}
+
+#user_a:hover{
+    color: #d99a65;
+}
+
+.line_section{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+    width: 1382.4px;
+    height: 3px;
+    background-color: #d99a65;
+}
+
+.search_section{
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+}
+
+#search_img{
+    opacity: 0.8;
+}
+
+.search_headline{
+    padding-top: 2%;
+}
+
+.search_section .search_headline{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#our_new{
+    color: white;
+    font-family: 'Oswald';
+    font-size: 8rem;
+}
+
+.search_input{
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    height: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#type_here:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#type_here{
+    padding-left: 20px;
+    width: 600px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: 'Montserrat';
+    font-size: 1.7rem;
+    border: 0px;
+    border-color: white;
+}
+
+.shop{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    display: flex;
+}
+.options{
+    display: inline-block;
+    width: 40%;
+}
+
+#option01{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+#option01_p{
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-size: 1.9rem;
+}
+
+#option01_p:hover{
+    background-color: #d99a65;
+    border-radius: 25px;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#option02{
+    margin-top: 15px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+#option02_p{
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-size: 1.9rem;
+}
+
+#option02_p:hover{
+    background-color: #d99a65;
+    border-radius: 25px;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#option03{
+    margin-top: 15px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+#option03_p{
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-size: 1.9rem;
+}
+
+#option03_p:hover{
+    background-color: #d99a65;
+    border-radius: 25px;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#option04{
+    margin-top: 15px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+#option04_p{
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-size: 1.9rem;
+}
+
+#option04_p:hover{
+    background-color: #d99a65;
+    border-radius: 25px;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#quote_p{
+    padding-right: 55px;
+    font-family: 'Playwrite AT';
+    font-size: 2rem;
+    text-align: center;
+}
+
+.display{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#fig_apace{
+    margin-top: 20px;
+}
+
+#bag01{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#bag02{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#bag03{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#bag_name{
+    font-family: 'Montserrat';
+    font-size: 1.9rem;
+}
+
+#rate{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#buy_space{
+    margin-top: 10px;
+}
+
+#buy_icon{
+    display: inline-block;
+    margin-left: 10px;
+    width: 80px;
+    height: 40px;
+    background-color: #d99a65;
+    border-radius: 20px;
+    font-size: 1.4rem;
+}
+
+#buy_icon:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#a_buy_icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+#buy_space{
+    display: flex;
+    justify-content: space-between;
+}
+
+#add_icon{
+    display: inline-block;
+    margin-left: 10px;
+    width: 80px;
+    height: 40px;
+    background-color: #d99a65;
+    border-radius: 20px;
+    font-size: 1.4rem;
+}
+
+#add_icon:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#a_add_icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+  
+
+.about_us{
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    background-color: #d99a65;
+}
+
+#about_us_head{
+    font-family: 'Oswald';
+    font-size: 4rem;
+}
+
+#about_us_con{
+    font-family: 'Oswald';
+    font-size: 2rem;
+}
+
+#para{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+}
+
+#para_space{
+    margin-left: 21px;
+}
+
+.user{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.user_head{
+    font-family: 'Oswald';
+    font-size: 4rem;
+    color: #d99a65;
+}
+
+.user_form{
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 100px;
+    background-color: #d999657d;
+}
+
+#name_con{
+    font-family: 'Montserrat';
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#email_con{
+    font-family: 'Montserrat';
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pass_con{
+    font-family: 'Montserrat';
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pass_con2{
+    font-family: 'Montserrat';
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#instruction{
+    font-family: 'Montserrat';
+    padding-left: 15px;
+    font-size: 1rem;
+}
+
+#num_con{
+    font-family: 'Montserrat';
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#input_space{
+    padding-left: 10px;
+    font-family: 'Montserrat';
+    width: 300px;
+    
+}
+
+#submit_layer{
+    display: flex;
+    justify-content: center;
+    transition: 500ms;
+}
+
+#submit_layer:hover{
+    scale: 1.1;
+}
+
+#submit_button{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    background-color: white;
+    width: 300px;
+    height: 40px;
+    border: 0px;
+}
+
+.contact{
+    background-color: #d99a65;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.contact_head{
+    font-family: 'Oswald';
+    font-size: 4rem;
+}
+
+#con_para{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+}
+
+#insta:hover{
+    color: white;
+}
+
+#twitter{
+    padding-left: 20px;
+}
+
+#twitter:hover{
+    color: white;
+}
+
+#what{
+    padding-left: 20px;
+}
+
+#what:hover{
+    color: white;
+}
+
+#email_me{
+    padding-left: 20px;
+}
+
+#email_me:hover{
+    color: white;
+}
