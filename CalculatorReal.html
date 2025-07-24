@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Calculator</title>
+   <link rel="stylesheet" href="CalculatorReal.css">
+</head>
+<body>
+<!-- Created by Khushi Pal -->
+<section class="bg">
+   <section id="cal">
+      <div id="content">
+         <form>
+            <div id="output">
+               <input type="text" id='calculation'>
+            </div>
+            <div class="btn">
+               <input type="button" value='7' onclick="Solve('7')" id="num">
+               <input type="button" value='8' onclick="Solve('8')" id="num">
+               <input type="button" value='9' onclick="Solve('9')" id="num">
+               <input type="button" value='x' onclick="Solve('*')" id="maths">
+               <br>
+               <input type="button" value='4' onclick="Solve('4')" id="num">
+               <input type="button" value='5' onclick="Solve('5')" id="num">
+               <input type="button" value='6' onclick="Solve('6')" id="num">
+               <input type="button" value='-' onclick="Solve('-')" id="maths">
+               <br>
+               <input type="button" value='1' onclick="Solve('1')" id="num">
+               <input type="button" value='2' onclick="Solve('2')" id="num">
+               <input type="button" value='3' onclick="Solve('3')" id="num">
+               <input type="button" value='+' onclick="Solve('+')" id="maths">
+               <br>
+			   <input type="button" value='C' onclick="Clear()" id="clear">
+               <input type="button" value='0' onclick="Solve('0')" id="num">
+			   <input type="button" value='/' onclick="Solve('/')" id="maths">
+               <input type="button" value='=' onclick="Result()" id="maths">
+            </div>
+         </form>
+      </div>
+   </section>
+<!-- Created by Khushi Pal -->
+</section>
+   <script src='CalculatorReal.js'></script>
+</body>
+</html>
